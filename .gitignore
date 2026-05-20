@@ -1,0 +1,58 @@
+# OS X
+.DS_Store
+**/.DS_Store
+**/**/.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# Processed Files
+
+# Node files
+node_modules/
+
+# Files to ignore
+
+# OS X
+.DS_Store
+
+# Temporary Files/Folders
+tmp
+.tmp
+*.tmp
+temp
+
+# Selective Media Assets
+*.psd
+*.psb
+*.ai
+*.avi
+*.flv
+*.mov
+*.ogg
+*.webm
+*.mp3
+*.mp4
+*.mpeg
+*.dwg
+
+# Archives
+*.tar
+*.tar.*
+*.tgz
+*.tbz
+*.7z
+*.xz
+*.gz
+*.gzip
+*.bz2
+*.lzma
+*.zip
+*.rar
+.DS_Store
+assets/.DS_Store
