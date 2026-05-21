@@ -1,0 +1,25 @@
+.site-header {
+    background-color: var(--color--bg);
+    inline-size: 100%;
+    max-inline-size: 100%;
+    position: relative;
+    
+    .site-header__wrapper {
+        padding-inline: var(--site-margin);
+        padding-block: 32px;
+        display: flex;
+        align-items: center;
+        column-gap: 48px;
+        inline-size: 100%;
+        max-inline-size: min(calc(1600px - var(--site-margin) * 2), calc(100% - var(--site-margin) * 2));
+        margin-inline: auto;
+    }
+
+    .site-header__logo {
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: 75px;
+        inline-size: 100%;
+        max-inline-size: 75px;
+    }
+}

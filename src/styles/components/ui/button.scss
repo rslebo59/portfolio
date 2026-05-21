@@ -1,0 +1,19 @@
+.btn {
+    text-align: center;
+    padding-block: 14px;
+    padding-inline: 20px;
+    background-color: var(--color--green--opaque);
+    border: 2px solid var(--color--green);
+    color: var(--color--white);
+    border-radius: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;    
+
+    &:hover,
+    &:focus {
+        background-color: var(--color--green);
+    }
+}
