@@ -1,0 +1,12 @@
+@mixin list-unstyled {
+    list-style-type: none;
+    &,
+    & > li {
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+    }
+    & > li:before {
+        content: "\200B";
+        position: absolute;
+    }
+}

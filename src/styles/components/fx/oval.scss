@@ -1,0 +1,23 @@
+.oval {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    border-radius: 800px;
+    opacity: .12;
+    filter: blur(100px);
+
+    &--green {
+        background: var(--color--teal);
+        top: -400px;
+        left: -400px;
+    }
+
+    &--blue {
+        width: 600px;
+        height: 600px;
+        background: var(--color--purple);
+        bottom: -274px;
+        right: -310px;
+        opacity: .14;
+    }
+}

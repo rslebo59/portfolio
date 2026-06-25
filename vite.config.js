@@ -4,4 +4,7 @@ import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
   plugins: [react(), svgr()],
+  define: {
+    __BUILD_YEAR__: new Date().getFullYear(),
+  },
 });

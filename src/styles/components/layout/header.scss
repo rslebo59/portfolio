@@ -1,8 +1,9 @@
 .site-header {
-    background-color: var(--color--bg);
     inline-size: 100%;
     max-inline-size: 100%;
     position: relative;
+    z-index: 1;
+    margin-block-end: 24px;
     
     .site-header__wrapper {
         padding-inline: var(--site-margin);

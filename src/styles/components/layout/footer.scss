@@ -3,6 +3,7 @@
     max-inline-size: 100%;
     position: relative;
     border-top: 1px solid rgba(255,255,255,0.08);
+    margin-block-start: 100px;
 
     &__wrapper {
         padding-inline: var(--site-margin);

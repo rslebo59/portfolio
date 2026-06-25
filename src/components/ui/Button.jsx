@@ -4,15 +4,19 @@ import "../../styles/components/ui/button.scss";
 export default function Button({ children, href, variant = null, onClick }) {
   if (href) {
     return (
-        <Link to={href} className={['btn', variant && `btn--${variant}`].filter(Boolean).join(' ')}>
+      <div className={['button', variant && `button--${variant}`].filter(Boolean).join(' ')}>
+        <Link to={href} className="button__link">
             {children}
         </Link>
+      </div>
     )
   }
 
   return (
-    <button className={['btn', variant && `btn--${variant}`].filter(Boolean).join(' ')} onClick={onClick}>
-      {children}
-    </button>
+    <div className={['button', variant && `button--${variant}`].filter(Boolean).join(' ')}>
+      <button className="button__link" onClick={onClick}>
+        {children}
+      </button>
+    </div>
   )
 }

@@ -1,0 +1,51 @@
+@use "../../abstracts/mixins" as *;
+
+.section-techstack {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 40px;
+    margin-block: 0px 80px;
+
+    > span {
+        flex-grow: 1;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .techstack__list {
+        @include list-unstyled;
+
+        & {
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            column-gap: 80px;
+            row-gap: 40px;
+        }
+    }
+
+    .techstack__item {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        column-gap: 12px;
+
+        svg {
+            width: 24px;
+            height: 24px;
+
+            path {
+                fill: var(--color--white);
+            }
+        }
+    }
+}

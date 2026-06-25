@@ -1,0 +1,31 @@
+@forward "./typography";
+@forward "./menu";
+@forward "./button";
+
+.wrapper {
+    position: relative;
+    display: block;
+    inline-size: 100%;
+    max-inline-size: min(calc(900px - var(--site-margin) * 2), calc(100% - var(--site-margin) * 2));
+    margin-inline: auto;
+
+    .wrapper {
+        max-inline-size: 100%;
+    }
+
+    &--lg {
+        max-inline-size: min(calc(1200px - var(--site-margin) * 2), calc(100% - var(--site-margin) * 2));
+
+        .wrapper {
+            max-inline-size: min(calc(900px - var(--site-margin) * 2), calc(100% - var(--site-margin) * 2));
+        }
+    }
+
+    &--xlg {
+        max-inline-size: min(calc(1600px - var(--site-margin) * 2), calc(100% - var(--site-margin) * 2));
+
+        .wrapper {
+            max-inline-size: min(calc(1200px - var(--site-margin) * 2), calc(100% - var(--site-margin) * 2));
+        }
+    }
+}

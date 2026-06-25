@@ -1,0 +1,26 @@
+.section-featured {
+    margin-block-start: 110px;
+
+    header {
+        text-align: center;
+        margin-block-end: 48px;
+
+        h1 {
+            max-inline-size: 940px;
+            margin-inline: auto;
+            margin-block-end: 24px;
+        }
+
+        p {
+            max-inline-size: 680px;
+            margin-inline: auto;
+            font-size: 1.375rem;
+            line-height: 160%;
+        }
+    }
+
+    .buttons {
+        margin-block-end: 105px;
+        justify-content: center;
+    }
+}
